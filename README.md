@@ -17,6 +17,12 @@ Key Features
 - Set up roaming profiles
 - Distribution of notepad++ & chrome
 
+Simple Architecture Diagram
+ <br>A  [Windows Server 2025 - DC] --> B  [Windows 11 Client 1]
+ <br>A --> C  [Windows 11 Client 2]
+ <br>A --> D  [File Server - Profiles$ / Shares]
+
+
 ## Skills Demonstrated
 - Active Directory Administration
 - User and Group Management
@@ -77,4 +83,11 @@ Key Features
 
 ![image alt](https://github.com/louis00650/ActiveDirectory-Lab-ITSupport/blob/a172d3c5b20eb9daa6948085cd1686df79cfa1c3/BerryShareDrive.png) 
 A client-side "Proof of Concept." This view from a user workstation confirms that the Mapped Drive is visible and that the user can only see and access the specific folders permitted by their group memberships.Access-based enumeration enabled to hide the folders that the user had no permission.
+
+## What I Learned ?
+- How to design OU structure
+- How to apply GPOs safely
+- How NTFS inheritance works
+- How roaming profiles behave
+- How to secure file share
 
